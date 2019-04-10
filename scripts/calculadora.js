@@ -76,6 +76,8 @@ $(document).ready(function(){
                 $('#'+tipo).val(String(result));
                 $('#container').children('#error').hide().html();
             }
+        }else{
+            $('#container').children('#error').hide().html("Algum dois campos está inválido, por favor verificar!").show();
         }
     }
 });
