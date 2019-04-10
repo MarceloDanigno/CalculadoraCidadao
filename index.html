@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+        <script type="text/javascript" src="scripts/jquery-3.3.1.js"></script>
+<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>-->
+<script type="text/javascript" src="scripts/jquery.md5.js"></script>
+<script type="text/javascript" src="scripts/calculadora.js"></script>
+<link rel = "stylesheet" href = "styles/calculadora.css" />
+<body>
+<div id = "container">
+    <div id = "error"></div>
+    <div id = "calculadora" class = "quadrado_oval">
+	    <h2 style="color: red;">Calculadora</h2>
+	    <table align = "center">
+		<tr>
+		    <td>Valor Presente: </td>
+		    <td><input class = "quadradinho" type="text" id="vp"/></td>
+		</tr>
+		<tr>
+		    <td>Taxa de Juros (%): </td>
+		    <td><input class = "quadradinho" type="text" id="s"/></td>
+		</tr>
+		<tr>
+		    <td>Períodos: </td>
+		    <td><input class = "quadradinho" type="text" id="t"/></td>
+		</tr>
+		<tr>
+		    <td>Valor Futuro: </td>
+		    <td><input class = "quadradinho" type="text" id="vf"/></td>
+		</tr>
+	    </table>
+		<div id = butao>
+		    <button id="Calcular" type="button" >Calcular</button>
+		    <button id="VU" type="button" >Calcular Valor Presente Uniforme</button>
+		</div>
+    </div>
+
+    <div id = "ajuda" class = "retangulo_oval">
+        <h2>Instruções</h2>
+        <h3>Preencha 3 campos e o quarto será calculado. Utilize o ponto como marcador decimal.</h3>
+        <h3>Se tiver 4 campos preenchidos ira apresentar um erro. Basta retirar um deles.</h3>
+	<h3>Para calcular o valor presente uniforme não preencha o campo do valor presente.</h3>
+    </div>
+</div>
+</body>
+</html>
