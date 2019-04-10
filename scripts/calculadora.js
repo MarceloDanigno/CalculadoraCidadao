@@ -77,7 +77,7 @@ $(document).ready(function(){
                 $('#container').children('#error').hide().html();
             }
         }else{
-            $('#container').children('#error').hide().html("Algum dos campos está inválido, por favor verificar!").show();
+            $('#container').children('#error').hide().html("Algum(ns) dos campos está(ão) inválido(s), por favor verificar!").show();
         }
     }
 });
