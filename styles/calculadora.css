@@ -1,0 +1,99 @@
+body{
+    background-color: #cccccc;
+    /*background-image: url("zoom_513e1b0c54456.png");
+    background-repeat: no-repeat;
+    background-position: center;*/
+
+}
+.quadrado_oval{
+    height: 40%;
+    width: 32%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid black;
+    border-radius: 50px;
+    float: left;
+    margin-left: 18%;
+}
+#error{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 20px;
+    color: red;
+    font-style: italic;
+}
+.retangulo_oval{
+    height: 80%;
+    width: 22%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid black;
+    border-radius: 50px;
+    float: right;
+    margin-right: 20%;
+        
+}
+h2{
+    float: center;
+    color: green;
+    font-family: Verdana;
+}
+h3{
+    margin: 8%;
+}
+p{
+    margin: 5%;
+
+}
+.quadradinho{
+    width: 80%;
+    font-size: 15px;
+    padding: 1px;
+}
+#ajuda{
+    
+    float: right;
+}
+#container{
+    margin-top: 8%;
+}
+h2{
+    font-family: verdana;
+    font-size: 30px;
+    text-align: center;
+}
+/*Paragraph css */
+td{
+
+    font-family: verdana;
+    font-size: 18px;
+    text-align: center;
+}
+/*Buttons css */
+button{
+    background-color: rgb(211, 211, 211);
+    border: 2px solid black;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+#butao{
+    margin-left: 2%;
+    text-align: center;
+}
+button:hover {
+    background-color: rgb(128, 126, 126);
+}
+/*Essas linhas de codigo tiram as setinhas do type number*/
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
